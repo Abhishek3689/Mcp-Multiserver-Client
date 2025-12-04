@@ -78,6 +78,21 @@ The client automatically:
 
 ---
 ## Steps to Use this Repo
+### 🔑 Environment Variables
+
+Create a `.env` file in the project root:
+
+- WEATHER_API_KEY=your_api_key_here
+- GROQ_API_KEY=your_groq_key_here
+
+  
+> ⚠️ **IMPORTANT NOTE:**  
+> The Weather Server requires a **valid Weather API key**.  
+> Use you own API KEY  
+> Each user must obtain their **own API key** from the weather provider and place it inside their personal `.env` file.  
+>  
+> Example sources for weather API keys:   
+> - https://weatherapi.com  
 
 ### 1. Clone the repository
 
@@ -94,5 +109,10 @@ uv add fastmcp langchain langchain-core langchain-groq langchain-mcp-adapters ht
 ```
 python client.py
 ```
+or
+```
+uv run client.py
+```
+
 
 
