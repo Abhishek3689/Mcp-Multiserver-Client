@@ -82,8 +82,7 @@ The client automatically:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourname/mcp-multiserver-client
-cd mcp-multiserver-client
+git clone https://github.com/Abhishek3689/Mcp-Multiserver-Client.git
 ```
 ### 2.Install dependencies using uv
 ```
@@ -95,4 +94,5 @@ uv add fastmcp langchain langchain-core langchain-groq langchain-mcp-adapters ht
 ```
 python client.py
 ```
+
 
